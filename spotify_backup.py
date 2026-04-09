@@ -14,7 +14,7 @@ SPOTIPY_CLIENT_ID = os.getenv('SPOTIPY_CLIENT_ID')
 SPOTIPY_CLIENT_SECRET = os.getenv('SPOTIPY_CLIENT_SECRET')
 
 # Deve ser EXATAMENTE a mesma URL que você colocou no Dashboard
-SPOTIPY_REDIRECT_URI = os.getenv('SPOTIPY_REDIRECT_URI', 'http://127.0.0.1:8888/callback')
+SPOTIPY_REDIRECT_URI = os.getenv('SPOTIPY_REDIRECT_URI', '')
 
 # Nome da playlist onde as músicas serão salvas
 PLAYLIST_NAME = 'Backup da Estrada'
